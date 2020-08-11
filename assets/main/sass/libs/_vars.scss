@@ -19,9 +19,10 @@
 
 // Font.
 	$font: (
-		family:				('Merriweather', Georgia, serif),
-		family-heading:		('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Lato', Georgia, serif),
+		family-heading:		('Grenze'),//('Source Sans Pro', Helvetica, sans-serif),
+		family-nav:			('Fira Code'),
+		family-fixed:		('Fira Code', 'Courier New', monospace),
 		weight:				300,
 		weight-bold:		600,
 		weight-heading:		900
@@ -29,15 +30,15 @@
 
 // Palette.
 	$palette: (
-		wrapper-bg:			#212931,
+		wrapper-bg:			#050706,//#212931,
 
-		bg:					#ffffff,
-		fg:					#212931,
-		fg-bold:			#212931,
-		fg-light:			mix(#212931, #ffffff, 50%),
-		border:				mix(#dcdcdc, #ffffff, 50%),
-		border-bg:			rgba(#dcdcdc, 0.25),
-		accent:				#18bfef,
+		bg:					#050706,
+		fg:					#889798,
+		fg-bold:			#889798,
+		fg-light:			mix(#dcdcdc, #000000, 50%),
+		border:				#0f0c15,//mix(#845757, #000000, 50%),
+		border-bg:			rgba(#413358, 0.25),
+		accent:				#d67bb0,
 
 		alt: (
 			bg:				#f5f5f5,
@@ -46,17 +47,17 @@
 			fg-light:		mix(#717981, #f5f5f5, 50%),
 			border:			mix(#dcdcdc, #f5f5f5, 75%),
 			border-bg:		rgba(#dcdcdc, 0.5),
-			accent:			#18bfef,
+			accent:			#1264e0,
 		),
 
 		invert: (
-			bg:				#1e252d,
-			bg-alt:			#1e252d,
-			fg:				#ffffff,
+			bg:				#050706,
+			bg-alt:			#090805,
+			fg:				#1264e0,
 			fg-bold:		#ffffff,
 			fg-light:		rgba(#ffffff, 0.5),
 			border:			#ffffff,
 			border-bg:		rgba(#ffffff,0.075),
-			accent:			#18bfef,
+			accent:			#d67bb0,
 		),
 	);

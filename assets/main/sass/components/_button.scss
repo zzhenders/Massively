@@ -18,10 +18,10 @@
 			'color #{_duration(transition)} ease-in-out'
 		));
 		border: 0;
-		border-radius: 0;
+		border-radius: 0;//5em;
 		cursor: pointer;
 		display: inline-block;
-		font-family: _font(family-heading);
+		font-family: _font(family-nav);
 		font-size: 0.8rem;
 		font-weight: _font(weight-heading);
 		letter-spacing: 0.075em;
@@ -30,7 +30,7 @@
 		padding: 0 2rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: lowercase;
 		white-space: nowrap;
 
 		&.icon {

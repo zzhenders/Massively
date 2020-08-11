@@ -14,7 +14,7 @@
 			'transform 1s ease',
 			'opacity 1s ease'
 		));
-		background: rgba(255,255,255,0.175);
+		background: rgba(#050706,0.275);
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -30,13 +30,13 @@
 				@include vendor('display', 'flex');
 				@include vendor('flex-grow', '1');
 				@include vendor('flex-shrink', '1');
-				font-family: _font(family-heading);
+				font-family: _font(family-nav);
 				font-weight: _font(weight-heading);
 				letter-spacing: 0.075em;
 				list-style: none;
 				margin-bottom: 0;
 				padding-left: 0;
-				text-transform: uppercase;
+				text-transform: lowercase;
 
 				li {
 					display: block;
@@ -51,6 +51,7 @@
 						font-size: 0.8rem;
 						outline: none;
 						padding: 0 2rem;
+						border-bottom-color: _palette(bg);
 
 						&:hover {
 							color: inherit !important;
